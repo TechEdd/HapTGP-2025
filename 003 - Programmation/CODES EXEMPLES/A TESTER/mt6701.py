@@ -1,3 +1,6 @@
+#fonctionne de façon intermittante. 
+#angle ne bouge pas plus que 6deg
+
 from smbus2 import SMBus
 import math
 import time
@@ -53,7 +56,7 @@ try:
             #filtered_angle = low_pass_filter(filtered_angle, new_angle)
             #print(f"Angle is: {filtered_angle:.0f}")
 
-            time.sleep(0.5)     
+            time.sleep(1)     
 
 except FileNotFoundError:
     print(f"Error: I2C bus {I2C_BUS_NUMBER} not found. Ensure I2C is enabled.")

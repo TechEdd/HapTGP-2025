@@ -1,3 +1,4 @@
+#fonctionnel
 #https://docs.circuitpython.org/projects/ds3231/en/latest/
 import adafruit_ds3231
 import time
