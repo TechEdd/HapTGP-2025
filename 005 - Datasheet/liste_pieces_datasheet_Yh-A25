@@ -1,0 +1,32 @@
+Ce répertoire doit avoir minimalement 10 éléments de datasheets sur 14.
+
+Liste des datasheets attendus:
+- VEML7700
+- BME280
+- DS3231
+- Ecran: a) TFT LCD  b) touch screen
+- WS2812
+- RPi Zero 2W
+- DRV2605L
+- MT6701
+- Mosfet
+- Diode array
+- DC motor Haptic
+- buzzer
+- module micro-SD
+
+
+*** consulter la liste fournie au cours: INV_Pièces-kit-cours_244-570-AL.pdf
+
+Pour le nommage:
+- DS_  : pour indiquer qu'il s'agit d'une fiche de manufacturier (DS)
+- [manufacturier]:  TI, NXP, MAX, AD, Bosch, Ada, etc, un "short" pour indiquer le nom du manufacturier
+- [nom/numero piece]: BME280, VEML7700, DRV2605, etc: le nom ou numéro de la piece utilisée (et non sa famille), selon la datasheet du manufacturier
+- [version du datasheet]: si indiqué par le manufacturier, employer la lettre "v" comme séparateur remplacant le ".", ajouter l'année de révision.
+- [autre pertient]: 1 ou 2 mots pour indiquer une information supplementaire pertinent, SI REQUIS.
+
+Ex de nom de fichier pour le capteur BME280:
+
+DS_bosch_BME280_1v23-2022_capteurTHP.pdf
+
+
